@@ -20,7 +20,6 @@
             "platform": "linux",
             "archive": true,
             "includes": ["pawno/include"],
-			"plugins": ["plugins/sscanf.so"],
 			"files": {
 				"amxsscanf.so": "amxsscanf.so",
 				"components/sscanf.so": "components/sscanf.so"
@@ -31,7 +30,6 @@
             "platform": "windows",
             "archive": true,
             "includes": ["pawno/include"],
-			"plugins": ["plugins/sscanf.dll"],
 			"files": {
 				"amxsscanf.dll": "amxsscanf.dll",
 				"components/sscanf.dll": "components/sscanf.dll"
