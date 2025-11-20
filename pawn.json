@@ -1,5 +1,5 @@
 {
-    "user": "Y-Less",
+    "user": "project-lv",
     "repo": "sscanf",
     "contributors": [
 		"Cheaterman",
@@ -20,17 +20,20 @@
             "platform": "linux",
             "archive": true,
             "includes": ["pawno/include"],
-            "plugins": ["plugins/sscanf.so"]
+			"files": {
+				"amxsscanf.so": "amxsscanf.so",
+				"components/sscanf.so": "components/sscanf.so"
+		    }
         },
         {
             "name": "^sscanf-(.*)-win32.zip$",
             "platform": "windows",
             "archive": true,
             "includes": ["pawno/include"],
-            "plugins": ["plugins/sscanf.dll"]
+			"files": {
+				"amxsscanf.dll": "amxsscanf.dll",
+				"components/sscanf.dll": "components/sscanf.dll"
+		    }
         }
-    ],
-    "runtime": {
-        "plugins": ["Y-Less/sscanf"]
-    }
+    ]
 }
